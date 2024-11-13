@@ -37,10 +37,6 @@ The project includes detailed instructions for each approach, processing steps f
 
 - **`titanic_predictions_rfe.csv`**: Prediction results from the improved Recursive Feature Elimination model (`rfe-HW2_improved.py`), indicating survival predictions for test set passengers.
 
-## **Dataset**
-
-The dataset (attached) contains information on Titanic passengers, including their survival status, demographic details, and ticket information. Our target column is **Survived**, and all other columns serve as features for analysis.
-
 ---
 
 ## **1. Recursive Feature Elimination (RFE)**
