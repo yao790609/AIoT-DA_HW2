@@ -68,12 +68,6 @@ For each feature selection and tuning method:
 - **Feature Importance Analysis:** Identify key features contributing to survival prediction for interpretability.
 - **CSV Output:** Prediction results are saved in CSV format for easy access and further analysis.
 
-## **Usage**
-
-1. **Clone** this repository and ensure you have Python and necessary libraries installed (see `requirements.txt`).
-2. **Run** the desired script (e.g., `titanic_rfe.py`, `titanic_selectkbest.py`, or `titanic_optuna.py`).
-3. **Predictions** will be saved in `predictions_rfe.csv`, `predictions_selectkbest.csv`, or `predictions_optuna.csv` respectively.
-
 ## **Conclusion**
 
 This project demonstrates the effectiveness of different feature selection techniques and hyperparameter optimization using the Titanic dataset. By comparing **RFE**, **SelectKBest**, and **Optuna-tuned** models, we can better understand the impact of feature selection and tuning on model performance and interpretability.
