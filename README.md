@@ -13,6 +13,30 @@ This project aims to analyze and predict survival outcomes for passengers aboard
 
 The project includes detailed instructions for each approach, processing steps for test data, and saving prediction outputs to CSV files.
 
+## **File Descriptions**
+
+- **`kbest-HW2.py`**: Original implementation of feature selection using the SelectKBest method on the Titanic dataset. The model trains on key features selected by statistical metrics.
+
+- **`kbest-HW2_improved.py`**: Improved version of the SelectKBest implementation, optimized based on feedback from a high-performing code (rated 100). Adjustments include fine-tuning feature processing and prediction accuracy.
+
+- **`optuna-HW2.py`**: Original code for hyperparameter tuning of a Random Forest model using the Optuna framework. This version seeks to improve model accuracy by optimizing key parameters on the Titanic dataset.
+
+- **`optuna-HW2_improved.py`**: Enhanced version of the Optuna Random Forest hyperparameter tuning code, based on guidance from a high-rated model. This improved version features optimized parameter settings for better prediction outcomes.
+
+- **`rfe-HW2.py`**: Original code implementing Recursive Feature Elimination (RFE) for feature selection in the Titanic dataset. It identifies essential features for the survival prediction task.
+
+- **`rfe-HW2_improved.py`**: An upgraded RFE feature selection script, refined with insights from a high-performance model. This improved version provides enhanced feature selection accuracy and refined prediction results.
+
+- **`train.csv`**: Training dataset containing Titanic passenger information, used to build and train each model.
+
+- **`test.csv`**: Testing dataset with Titanic passenger details for model evaluation and prediction.
+
+- **`titanic_predictions_kbest.csv`**: Prediction output from the improved SelectKBest model (`kbest-HW2_improved.py`), listing the predicted survival status of passengers in the test set.
+
+- **`titanic_predictions_optuna.csv`**: Prediction output generated from the optimized Optuna Random Forest model (`optuna-HW2_improved.py`), providing survival predictions for the test data.
+
+- **`titanic_predictions_rfe.csv`**: Prediction results from the improved Recursive Feature Elimination model (`rfe-HW2_improved.py`), indicating survival predictions for test set passengers.
+
 ## **Dataset**
 
 The dataset (attached) contains information on Titanic passengers, including their survival status, demographic details, and ticket information. Our target column is **Survived**, and all other columns serve as features for analysis.
